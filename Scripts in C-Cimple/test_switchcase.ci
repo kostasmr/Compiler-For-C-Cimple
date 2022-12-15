@@ -1,0 +1,13 @@
+program testCase
+	declare x;
+	declare y,t;
+	{
+		switchcase
+		{
+			(case(x>t) print(x))
+			(case(x<t) print(t))
+			default print(y)
+		};
+		print(t)
+
+	}.

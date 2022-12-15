@@ -1,0 +1,14 @@
+program id1
+declare x;
+#000#
+function f(inout y)
+{
+	return(f(inout x));
+}
+procedure test(in y)
+{
+	return(test(in y));
+}
+{
+	call f(inout x);
+}.

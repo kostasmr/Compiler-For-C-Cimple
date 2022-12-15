@@ -1,0 +1,9 @@
+program testIf
+	declare x;
+	declare i;
+	{
+		if(x>=i)
+			print(x)
+		[else
+			print(i)]
+	}.

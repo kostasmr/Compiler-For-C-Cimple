@@ -1,0 +1,11 @@
+program testcase
+	declare x,y;
+	{
+		forcase
+		{
+			(case (x<=10) x:=x+1;)
+			(case (x>=10) x:=x-1;)
+			default print(x)
+		};
+		print(y)
+	}.

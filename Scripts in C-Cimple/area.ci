@@ -1,0 +1,58 @@
+program area
+	declare x1,x2,x3;
+	declare y1,y2,y3;
+	declare a,b,c,answer;
+	function square(in x)
+	{
+		return (x*x);
+	}
+	function sqrt(in num)
+	declare i;
+	{
+		i:=0;
+		while(square(in i)<=num){
+			i:=i+1;
+		};
+		return(i-1);
+	}
+	function area(in a,in b)      
+	declare ans,t;
+	{
+		if(c=0 and not [b=1]){
+			ans:=a*b;
+			return (ans);
+		};
+		if(b=0 and not [c=0]){
+			ans:=a*square(in c);
+			return(ans);
+		};
+		if(a=0 or [a=0 and c=0]){
+			return(-1);
+		}
+		else{
+			t:=a/2+b/2+c/2;
+			ans:=sqrt(in num);
+			return (ans);
+		};
+
+	}
+	
+	
+	{
+		input(x1);
+		input(x2);
+		input(x3);
+		input(y1);
+		input(y2);
+		input(y3);
+		a:=x2-x1;
+		b:=y2-y1;
+		c:=y3-x3;
+		answer:= area(in a,in b);
+		print(answer);
+		a:= sqrt(in num);
+		b:= sqrt(in num);
+		c:= sqrt(in num);
+		answer:= area(in a,in b);
+		print(answer);
+	}.
